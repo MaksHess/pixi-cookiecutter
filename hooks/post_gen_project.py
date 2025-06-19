@@ -269,7 +269,7 @@ def main() -> None:
     remove_license_dir()
     git_init()
     # update_dependencies()
-    allow_direnv()
+    # allow_direnv()
     git_hooks()
     git_initial_commit()
     setup_remote("origin")
