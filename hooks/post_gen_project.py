@@ -18,7 +18,7 @@ GITHUB_PRIVACY_OPTIONS = ["private", "internal", "public"]
 MINIMUM_PYTHON_MINOR_VERSION = 12
 
 
-def call(cmd: str, check: bool = True, **kwargs: Any) -> subprocess.CompletedProcess[bytes]:
+def call(cmd: str, check: bool = False, **kwargs: Any) -> subprocess.CompletedProcess[bytes]:
     """
     Call shell commands.
 
