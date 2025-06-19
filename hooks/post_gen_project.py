@@ -263,6 +263,8 @@ TERMINATOR = "\x1b[0m"
 
 
 def main() -> None:
+    import sys
+    logger.addHandler(logging.StreamHandler(sys.stdout)).setLevel(logging.DEBUG)
     """Run the post generation hooks."""
     set_python_version()
     set_license("{{cookiecutter.license}}")
