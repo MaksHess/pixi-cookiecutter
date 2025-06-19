@@ -268,7 +268,7 @@ def main() -> None:
     set_license("{{cookiecutter.license}}")
     remove_license_dir()
     git_init()
-    update_dependencies()
+    # update_dependencies()
     allow_direnv()
     git_hooks()
     git_initial_commit()
