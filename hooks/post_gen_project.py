@@ -275,7 +275,7 @@ def main() -> None:
     allow_direnv()
     git_hooks()
     git_initial_commit()
-    setup_remote("origin")
+    # setup_remote("origin")
 
     notes()
 
