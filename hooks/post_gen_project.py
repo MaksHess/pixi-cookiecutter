@@ -10,7 +10,7 @@ from shutil import rmtree
 from typing import Any, Literal
 
 logger = logging.Logger("post_gen_project_logger")
-logger.setLevel(logging.INFO)
+logger.setLevel(logging.DEBUG)
 
 
 PROTOCOL = Literal["git", "https"]
